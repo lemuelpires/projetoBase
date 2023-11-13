@@ -1,5 +1,6 @@
 using FluentAssertions;
 using HelperStockBeta.Domain.Entities;
+using HelperStockBeta.Domain.Interface;
 
 namespace HelperStockBeta.Domain.Test
 {
@@ -49,5 +50,7 @@ namespace HelperStockBeta.Domain.Test
                 .WithMessage("Name is minimum 3 charecters");
         }
         #endregion
+    
+
     }
 }
