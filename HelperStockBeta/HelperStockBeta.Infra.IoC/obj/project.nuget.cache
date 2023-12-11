@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "3z4RXgGJf8q6ZNKSKBy/OysVbvXF09pjwGU3a4BAyLFiYjlb9g6bR8fcyF5Wf3KSRv4ELTpQG+O25WqnVcBc5g==",
+  "dgSpecHash": "35HMs4ox3j7/guP60Wd5Wyfb83t/74DK2u+jZm+GDXqBYa0LqOVPGobpircH1mprRdDug2hSkRFOzuuNjo/TAA==",
   "success": true,
   "projectFilePath": "C:\\Repositories\\projetoBase\\HelperStockBeta\\HelperStockBeta.Infra.IoC\\HelperStockBeta.Infra.IoC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\lemuel\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\lemuel\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\lemuel\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\lemuel\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\lemuel\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "C:\\Users\\lemuel\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\lemuel\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\lemuel\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",
     "C:\\Users\\lemuel\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.1.0\\microsoft.data.sqlclient.sni.runtime.5.1.0.nupkg.sha512",
     "C:\\Users\\lemuel\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.13\\microsoft.entityframeworkcore.7.0.13.nupkg.sha512",

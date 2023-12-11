@@ -1,4 +1,7 @@
-﻿using HelperStockBeta.Domain.Interface;
+﻿using HelperStockBeta.Application.Interfaces;
+using HelperStockBeta.Application.Mappings;
+using HelperStockBeta.Application.Services;
+using HelperStockBeta.Domain.Interface;
 using HelperStockBeta.Infra.Data.Context;
 using HelperStockBeta.Infra.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -16,10 +19,19 @@ namespace HelperStockBeta.Infra.IoC
                 options =>
                 options.UseSqlServer(configuration.GetConnectionString("Default Connection"),
                 b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
+
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IProductRepository, ProductRepository>();
+
+            // Mapeamento de DTOs
+            services.AddScoped<ICategoryService, CategoryService>();
+            services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
+
+            services.AddScoped<IProductService, ProductService>();
+            services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
 
             return services;
         }
     }
 }
+

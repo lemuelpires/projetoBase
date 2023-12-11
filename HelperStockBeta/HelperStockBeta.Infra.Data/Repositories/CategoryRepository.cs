@@ -1,23 +1,17 @@
 ﻿using HelperStockBeta.Domain.Entities;
 using HelperStockBeta.Domain.Interface;
 using HelperStockBeta.Infra.Data.Context;
-using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HelperStockBeta.Infra.Data.Repositories
 {
-    public class CategoryRepository:ICategoryRepository
+    public class CategoryRepository : ICategoryRepository
     {
         //Contexto de infra em conexão
         ApplicationDbContext _categoryContext;
 
         //Modelagem do contexto de conexão para a categoria
-            public CategoryRepository(ApplicationDbContext context)
+        public CategoryRepository(ApplicationDbContext context)
         {
             _categoryContext = context;
         }

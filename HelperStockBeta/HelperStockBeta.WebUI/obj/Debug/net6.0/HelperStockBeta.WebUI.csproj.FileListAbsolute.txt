@@ -760,3 +760,5 @@ C:\Repositories\projetoBase\HelperStockBeta\HelperStockBeta.WebUI\obj\Debug\net6
 C:\Repositories\projetoBase\HelperStockBeta\HelperStockBeta.WebUI\obj\Debug\net6.0\HelperStockBeta.WebUI.csproj.CopyComplete
 C:\Repositories\projetoBase\HelperStockBeta\HelperStockBeta.WebUI\obj\Debug\net6.0\HelperStockBeta.WebUI.genruntimeconfig.cache
 C:\Repositories\projetoBase\HelperStockBeta\HelperStockBeta.WebUI\obj\Debug\net6.0\ref\HelperStockBeta.WebUI.dll
+C:\Repositories\projetoBase\HelperStockBeta\HelperStockBeta.WebUI\bin\Debug\net6.0\AutoMapper.dll
+C:\Repositories\projetoBase\HelperStockBeta\HelperStockBeta.WebUI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
